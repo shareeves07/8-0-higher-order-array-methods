@@ -14,7 +14,7 @@ const exampleSongData = require('../data/songs');
  * @returns {Object} A single object.
  */
 function findPinkElephantsByTimestreet(songs) {
-  return songs.find((song) => song.title === 'Pink Elephants');
+  
 }
 
 /**
@@ -23,7 +23,7 @@ function findPinkElephantsByTimestreet(songs) {
  * @returns {Object} A single object.
  */
 function findFirstSongUnderThreeMinutes(songs) {
-  return songs.find((song) => song.runtimeInSeconds < 180);
+  
 }
 
 /**
@@ -32,7 +32,7 @@ function findFirstSongUnderThreeMinutes(songs) {
  * @returns {Object} A single object.
  */
 function findFirstTitleTrack(songs) {
-  return songs.find((song) => song.title === song.album);
+ 
 }
 
 module.exports = {
